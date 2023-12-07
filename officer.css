@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+/*===== Colores =====*/
+:root{
+    --first-color: #5361FF; 
+    --white-color: #FAFAFF;
+    --dark-color: #2A3B47;
+    --text-color: #697477;
+    --back-color: #5361ff15;
+}
+
+/* === HEAD === */
+
+.first-header{
+    width: 100%;
+    position: absolute;top:0;
+    background-color: var(--first-color);
+    height: 50px;
+    line-height: 50px; 
+}
+
+.nav__logo{
+    margin-left: 25px;
+}
+
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.nav-list{
+    list-style: none;
+    display: inline;
+}
+
+.links{
+    text-decoration: none;
+    display: inline;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white-color);   
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+.links :hover{
+    background-color: var(--white-color);
+    color: var(--first-color);
+    transition-duration: 0.3s;
+}
+
+.list-item :hover{
+    background-color: var(--white-color);
+    color: var(--first-color);
+    transition-duration: 0.3s;
+}
+
+.logo{
+    margin-left: 25px;
+    font-family: arial;
+}
+
+.list-item{
+    float: left;
+    margin-right: 25px;
+}
+
+
+/* === MAIN === */
+
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    max-height: 100%;
+    margin-top: 25px;
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 20px;
+}
+
+
+
+.container button{
+    background-color: var(--first-color);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container button.hidden{
+    background-color: transparent;
+    border-color: #fff;
+}
+.container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.files{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.welcome{
+    margin-bottom: 25px;
+    margin-top: 75px;
+}
