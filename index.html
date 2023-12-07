@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p>Öğrenciyseniz <a href="ogrenciGiris.php">Buradan</a> giriş yapabilirsiniz!</p> <br>
-    <p>Görevliyseniz <a href="gorevliGiris.php">Buradan</a> giriş yapabilirsiniz!</p>
+    <!-- <p>Öğrenciyseniz <a href="ogrenciGiris.php">Buradan</a> giriş yapabilirsiniz!</p> <br>
+    <p>Görevliyseniz <a href="gorevliGiris.php">Buradan</a> giriş yapabilirsiniz!</p> -->
+
+     <!--===== HEADER =====-->
+     <header class="first-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="links logo">Internships Book</a>
+            </div>
+
+            <ul class="nav-list">
+                <li class="list-item"><a href="#" class="links">Anasayfa</a></li>
+                <li class="list-item"><a href="#" class="links">Hakkımızda</a></li>
+                <li class="list-item"><a href="#" class="links">Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--HOME-->
+    <main class="first-home">
+        
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+
+                <div class="box student">
+                    <img src="image/undraw_Teacher_re_sico.png" class="student_image" alt="">
+                    <!-- <h3 class="select_login">GİRİŞ / KAYIT</h3> -->
+                    <a href="login_student.html" class="buttons">ÖĞRENCİ</a>
+                    <!-- <input type="submit" name="student_login" id="" value="ÖĞRENCİ" class="buttons"> -->
+                </div>
+
+                <div class="box teacher">
+                    <img src="image/teacher.png" class="teacher_image" alt="">
+                    <!-- <h3 class="select_login">GİRİŞ / KAYIT</h3> -->
+                    <a href="login_teacher.html" class="buttons">GÖREVLİ</a>
+                    <!-- <input type="submit" name="teacher_login" id="" value="ÖĞRETMEN" class="buttons"> -->
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
 </body>
-</html>
