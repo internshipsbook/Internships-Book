@@ -279,3 +279,15 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+.secenek{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    
+}
